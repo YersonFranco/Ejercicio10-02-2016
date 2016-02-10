@@ -1,0 +1,80 @@
+.container{
+	overflow: hidden;
+	font-family: "Verdana";
+}
+
+.container > h1 {
+	background: gray;
+	color: white;
+	padding: 10px;
+}
+
+.sidebar {
+	width: 15%;
+	display: inline-block;
+	float: left;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar ul li {
+	list-style: none;
+	margin-bottom: 1px;
+}
+
+.sidebar ul li a {
+	text-decoration: none;
+	line-height: 30px;
+	color: white;
+	background: #578EC8;
+	display: block;
+	padding: 10px;
+	font-size: 15px;
+	text-shadow:1px 1px 1px #000;
+	font-family: "Verdana"
+}
+.sidebar ul li a:hover {
+	background: gray;
+}
+
+.content {
+	width: 70%;
+	float: left;
+	padding: 0 2%;
+	line-height: 2em;
+	text-align: justify;
+}
+
+.content p {
+	font-size: 20px;
+}
+
+.boxes {
+	overflow: hidden;
+	clear: both;
+}
+
+.boxes .feature{
+	float: left;
+	width: 20%;
+	margin-right: 1%;
+}
+
+.feature img {
+	max-width: 100%;
+}
+
+@media screed and (max-width: 480px){
+	.boxer .feature{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+
+	.selector{
+		
+	}
+}
